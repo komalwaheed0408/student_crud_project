@@ -1,0 +1,27 @@
+/* Remove default list styling */
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* navbar background */
+  overflow: hidden;       /* clears floats */
+}
+
+/* Make list items horizontal */
+.navbar li {
+  float: left;
+}
+
+/* Style links inside navbar */
+.navbar li a {
+  display: block;
+  color: white;           /* text color */
+  text-align: center;
+  padding: 14px 20px;     /* space around text */
+  text-decoration: none;  /* remove underline */
+}
+
+/* Hover effect */
+.navbar li a:hover {
+  background-color: #111; /* darken on hover */
+}
