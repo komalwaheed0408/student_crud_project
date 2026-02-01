@@ -11,7 +11,7 @@ if(isset($_POST['submit']))
 
         if($connect->query($insert_query)=== TRUE){
             echo "Record inserted successfully <br><br><br><br>";
-            echo '<a href="index.php">Go back to Home Page</a>';
+           // echo '<a href="index.php">Go back to Home Page</a>';
         }
         else {
             echo "Error: ".$connect->error;
@@ -19,8 +19,8 @@ if(isset($_POST['submit']))
 
       
 
-        // header("Location: index.php");
-        // exit();
+        header("Location: index.php");
+        exit();
     }
 
 

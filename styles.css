@@ -158,3 +158,63 @@ footer {
         width: 100%;
     }
 }
+
+/* Styling the content inside the card body */
+.course-body {
+    padding: 20px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.course-body p {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.course-body ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.course-body li {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    list-style-type: disc;
+}
+
+.course-body li strong {
+    color: #0d47a1; /* Dark blue for emphasis */
+}
+
+/* "Learn More" link style */
+.learn-more {
+    display: inline-block;
+    font-weight: bold;
+    color: #1976d2 !important;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.learn-more:hover {
+    text-decoration: underline !important;
+}
+
+/* Ensure the header link doesn't look like a standard blue link */
+#id4 h1 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+/* Ensure ID 5 has its unique blue shade */
+#id5 h1 {
+    background-color: #2196f3; /* A bright, clear blue */
+}
+
+#id5 h1 a {
+    text-decoration: none;
+    color: white;
+}
+

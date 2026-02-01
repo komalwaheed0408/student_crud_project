@@ -81,3 +81,13 @@ body {
         font-size: 1.5rem;
     }
 }
+
+.back-btn {
+    color: #bbdefb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}

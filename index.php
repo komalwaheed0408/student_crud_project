@@ -80,22 +80,44 @@
                 </div>
 
 
+            
             <!-- courses div:  -->
-             <div class="child-div" id="id4">
-                <h1><li><a href="courses.html">Courses Offered</a></li> </h1>
+            <div class="child-div" id="id4">
+                <h1><a href="courses.html">Courses Offered</a></h1>
+                
+                <div class="course-body">
+                    <p>Master the most in-demand technical skills with our comprehensive curriculum:</p>
+                    <ul>
+                        <li><strong>Web Development:</strong> Full-stack HTML, CSS, JavaScript, and React.</li>
+                        <li><strong>App Development:</strong> Building native iOS and Android applications.</li>
+                        <li><strong>Artificial Intelligence:</strong> Python, Machine Learning, and Data Science.</li>
+                        <li><strong>Cyber Security:</strong> Ethical hacking and network protection.</li>
+                    </ul>
+                    <a href="courses.html" class="learn-more">View Full Syllabus →</a>
+                </div>
             </div>
 
-
-             <!-- about div div:  -->
-             <div class="child-div" id="id5">
-                <h1><li><a href="about.html">About Us</a></li> </h1>
+                    <!-- View Students div: -->
+            <div class="child-div" id="id5">
+                <h1><a href="display.php">Student Directory</a></h1>
+                
+                <div class="course-body">
+                    <p>Manage and monitor all registered students within the centralized database:</p>
+                    <ul>
+                        <li><strong>Quick Search:</strong> Locate student profiles instantly by their unique ID.</li>
+                        <li><strong>Contact Info:</strong> Access up-to-date emails and phone numbers.</li>
+                        <li><strong>Data Integrity:</strong> View real-time records synced with the database.</li>
+                        <li><strong>Reporting:</strong> Review total enrollment and student distribution.</li>
+                    </ul>
+                    <a href="display.php" class="learn-more">Open Database View →</a>
+                </div>
             </div>
-
 
 
              <!-- contact div:  -->
              <div class="child-div" id="id6">
                 <h1><li><a href="contact.html">Contact Us</a></li> </h1>
+                
             </div>
          </div>
     </main>

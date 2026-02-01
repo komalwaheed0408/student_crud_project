@@ -1,0 +1,85 @@
+/* General Setup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e1f5fe; /* Light blue background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+.table-header {
+    background-color: #0d47a1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.back-btn {
+    color: #bbdefb;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
+/* Centering the Table Container */
+.table-container {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Rounds the table corners */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+/* Header Row */
+thead tr {
+    background-color: #1976d2;
+    color: white;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+/* Zebra Striping (light blue on every second row) */
+tbody tr:nth-child(even) {
+    background-color: #f1f8ff;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+    background-color: #bbdefb;
+    transition: 0.3s;
+}
+
+/* Empty data message */
+.no-data {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    th, td {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+}

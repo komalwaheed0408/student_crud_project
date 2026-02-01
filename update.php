@@ -11,7 +11,7 @@ if(isset($_POST['update'])){
 
     if($connect->query($update_query) === TRUE){
         echo "Record updated successfully <br><br><br><br>";
-            echo '<a href="index.php">Go back to Home Page</a>';
+            
     }
 
     else {
