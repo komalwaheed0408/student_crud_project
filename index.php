@@ -49,9 +49,10 @@
             <form action="delete.php" method="POST">
             <label>Student ID: </label> 
             <input type="number" name="id"> <br><br>
-            <input type= "submit" name ="delete"value = "Delete Student">
-         
-          <p><b>Don't know student's ID?</b></p>
+            <input type= "submit" name ="delete"value = "Delete Student">  <br><br>
+
+           <a href="display.php"> View Student IDs </a>
+        
         </form>
 
 
@@ -62,9 +63,11 @@
             <input type ="number" name ="id"> <br><br>
             <label> New email</label>
             <input type="email" name="email"> <br><br>
-            <input type="submit" name = "update" value= "update">
+            <label> New phone</label>
+            <input type="text" name="phone"> <br><br>
+            <input type="submit" name = "update" value= "update">  <br><br>
 
-            <p><b>Don't know student's ID?</b></p>
+            <a href="display.php"> View Student IDs </a>
          </form>
 
     </main>
