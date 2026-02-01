@@ -116,7 +116,14 @@
 
              <!-- contact div:  -->
              <div class="child-div" id="id6">
-                <h1><li><a href="contact.html">Contact Us</a></li> </h1>
+                            <h1><li><a href="contact.html">Contact Us</a></li> </h1>
+                            
+                <p>Want to learn web development or have questions about our projects? We're here to help! Reach out to discuss ideas, get guidance, or just say hello.</p>
+                <ul>
+                    <li>Looking for tips on HTML, CSS, or PHP? We've got you covered!</li>
+                    <li>Need advice on building projects or your portfolio? Ask away!</li>
+                    <li>Interested in collaboration or feedback on your work? Let's connect!</li>
+                </ul>
                 
             </div>
          </div>
