@@ -10,8 +10,8 @@ if(isset($_POST['update'])){
     $update_query = "UPDATE students SET email = '$email', phone = '$phone' WHERE id = $id";
 
     if($connect->query($update_query) === TRUE){
-        echo "Record update successfully!";    
-
+        echo "Record updated successfully <br><br><br><br>";
+            echo '<a href="index.php">Go back to Home Page</a>';
     }
 
     else {
